@@ -3,15 +3,8 @@
   "main": "src/index.ts",
   "compatibility_date": "2025-10-08",
   "upload_source_maps": true,
-
-  "triggers": {
-    "crons": ["*/15 * * * *"]
-  },
-
-  "ai": {
-    "binding": "AI"
-  },
-
+  "triggers": { "crons": ["*/15 * * * *"] },
+  "ai": { "binding": "AI" },
   "d1_databases": [
     {
       "binding": "DB",
@@ -19,8 +12,5 @@
       "database_name": "stablecoin_news_db"
     }
   ],
-
-  "observability": {
-    "enabled": true
-  }
+  "observability": { "enabled": true }
 }

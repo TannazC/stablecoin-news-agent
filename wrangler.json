@@ -3,23 +3,19 @@
   "main": "src/index.ts",
   "compatibility_date": "2025-10-08",
   "upload_source_maps": true,
-
   "triggers": {
     "crons": ["*/15 * * * *"]
   },
-
   "ai": {
     "binding": "AI"
   },
-
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "stablecoin_news_db",
-      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+      "database_id": "5915b38f-a5d2-4602-89a6-46b9ab1a6bfb",
+      "database_name": "stablecoin_news_db"
     }
   ],
-
   "observability": {
     "enabled": true
   }
